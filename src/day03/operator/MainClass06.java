@@ -5,7 +5,10 @@ package day03.operator;
  *  | : Or 연산자
  *  ^ : XOR 연산자
  *  ~ : Not 연산자
- * 
+ *  
+ *  7. 쉬프트연산자
+ *   << : 왼쪽으로 비트 이동
+ *   >> : 오른쪽으로 비트 이동
  */
 public class MainClass06 {
 	public static void main(String[] args) {
@@ -13,6 +16,9 @@ public class MainClass06 {
 		System.out.println(3|4);
 		System.out.println(3^3);
 		System.out.println(~3);
+		
+		System.out.println(1<<1);
+		System.out.println(2>>1);
 	}
 
 }
