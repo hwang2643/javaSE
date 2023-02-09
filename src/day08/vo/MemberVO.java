@@ -1,6 +1,6 @@
 package day08.vo;
 /*
- * [[ VO(Value Object), DTO(Data  Transfer Object ]]
+ * [[ VO(Value Object), DTO(Data Transfer Object ]]
  *  값 오브젝트로써 목적의 맞는 변수의 집합
  *  DataBase 값 운반용으로 사용
  * 
