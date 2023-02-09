@@ -3,7 +3,7 @@ package day08.exception;
 import day08.mypac2.NumberPrinter;
 
 /*
- * throws - 예외가 발생하면 상위메소드로 
+ * throws - 예외가 발생하면 상위메소드로 예외를 던진다.
  * 
  * 
  */
