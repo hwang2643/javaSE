@@ -11,22 +11,22 @@ public class JavaPractice_5Chap {
 //		System.out.println("sum="+sum);
 		
 		// 5-4
-		int[][] arr = {
-				{ 5, 5, 5, 5, 5},
-				{10,10,10,10,10},
-				{20,20,20,20,20},
-				{30,30,30,30,30}
-				};
-		int total = 0;
-		float average = 0;
-		for(int i = 0; i < arr.length; i++) {
-			for(int j = 0; j < arr[i].length; j++) {
-				total += arr[i][j];
-				}
-			}
-		average = (float)total/(arr.length*arr[0].length);
-		System.out.println("total="+total);
-		System.out.println("average="+average);
+//		int[][] arr = {
+//				{ 5, 5, 5, 5, 5},
+//				{10,10,10,10,10},
+//				{20,20,20,20,20},
+//				{30,30,30,30,30}
+//				};
+//		int total = 0;
+//		float average = 0;
+//		for(int i = 0; i < arr.length; i++) {
+//			for(int j = 0; j < arr[i].length; j++) {
+//				total += arr[i][j];
+//				}
+//			}
+//		average = (float)total/(arr.length*arr[0].length);
+//		System.out.println("total="+total);
+//		System.out.println("average="+average);
 		
 		// 5-5
 		int[] ballArr = {1,2,3,4,5,6,7,8,9};
@@ -40,7 +40,7 @@ public class JavaPractice_5Chap {
 		}
 		for(int i=0;i<ball3.length;i++) {
 			ball3[i] = ballArr[i];
-			System.out.print(ball3[i]);
+			System.out.print(ball3[i] + " ");
 		}
 	}
 }
