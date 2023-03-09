@@ -54,6 +54,7 @@ public class MainClass04 {
 		// 문자열 나누기(배열로 변환)
 		String str9 = "A:B:C:D:abcd";
 		String[] split = str9.split(":");
+		System.out.println(split[0]);
 		for(int i=0; i < split.length; i++) {
 			System.out.println("split[" + i + "] : " + split[i]);
 		}
